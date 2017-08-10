@@ -30,10 +30,10 @@ python动态语言，不用像静态语言那样必须实现某个接口，只�
 # 接口
 class DocxExtractor:
     def extract_paragraphs(self):
-        raise NotImplementedError
+        raise NotImplementedError()
 
     def extract_tables(self):
-        raise NotImplementedError
+        raise NotImplementedError()
 
 
 # 不同实现
